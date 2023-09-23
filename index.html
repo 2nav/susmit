@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <title>AxiGo Pharma</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="logo.jpeg"
+            alt="Logo"
+            width="240"
+            height="50"
+            class="d-inline-block align-text-top"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="p1.html">Products</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <!-- <div class="carousel-item active">
+          <img src="logo.jpeg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div> -->
+        <div class="carousel-item active">
+          <img src="drugs.jpeg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="weed.jpeg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <footer>
+      <div class="row footer-row mt-4">
+        <h4 class="footer-title">Contact Us</h4>
+        <h5 class="footer-subtitle">John Doe</h5>
+        <div class="footer-div">
+          <svg
+            width="19"
+            height="19"
+            viewBox="0 0 19 19"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16.9231 13.0152V15.3229C16.924 15.5371 16.8801 15.7492 16.7943 15.9455C16.7084 16.1418 16.5826 16.318 16.4247 16.4628C16.2668 16.6076 16.0805 16.7179 15.8775 16.7865C15.6746 16.8552 15.4595 16.8806 15.2462 16.8614C12.8791 16.6042 10.6054 15.7953 8.60771 14.4998C6.74912 13.3188 5.17335 11.743 3.99232 9.88444C2.69231 7.87767 1.88328 5.59289 1.63079 3.21521C1.61156 3.00249 1.63684 2.7881 1.70502 2.58569C1.77319 2.38327 1.88276 2.19727 2.02676 2.03953C2.17076 1.88178 2.34602 1.75575 2.54139 1.66945C2.73677 1.58316 2.94797 1.53848 3.16156 1.53828H5.46925C5.84256 1.53461 6.20447 1.6668 6.48753 1.91023C6.77058 2.15366 6.95546 2.4917 7.00771 2.86136C7.10511 3.59987 7.28575 4.325 7.54617 5.0229C7.64967 5.29822 7.67206 5.59745 7.61071 5.88511C7.54936 6.17278 7.40683 6.43683 7.20002 6.64598L6.22309 7.6229C7.31814 9.5487 8.91267 11.1432 10.8385 12.2383L11.8154 11.2614C12.0245 11.0545 12.2886 10.912 12.5763 10.8507C12.8639 10.7893 13.1632 10.8117 13.4385 10.9152C14.1364 11.1756 14.8615 11.3563 15.6 11.4537C15.9737 11.5064 16.3149 11.6946 16.5589 11.9825C16.8028 12.2704 16.9325 12.638 16.9231 13.0152Z"
+              stroke="white"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <a class="footer-number" href="tel:+919896007719">+91 1234567890</a>
+        </div>
+
+        <h5 class="footer-subtitle">John Doe</h5>
+        <div class="footer-div">
+          <svg
+            width="19"
+            height="19"
+            viewBox="0 0 19 19"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16.9231 13.0152V15.3229C16.924 15.5371 16.8801 15.7492 16.7943 15.9455C16.7084 16.1418 16.5826 16.318 16.4247 16.4628C16.2668 16.6076 16.0805 16.7179 15.8775 16.7865C15.6746 16.8552 15.4595 16.8806 15.2462 16.8614C12.8791 16.6042 10.6054 15.7953 8.60771 14.4998C6.74912 13.3188 5.17335 11.743 3.99232 9.88444C2.69231 7.87767 1.88328 5.59289 1.63079 3.21521C1.61156 3.00249 1.63684 2.7881 1.70502 2.58569C1.77319 2.38327 1.88276 2.19727 2.02676 2.03953C2.17076 1.88178 2.34602 1.75575 2.54139 1.66945C2.73677 1.58316 2.94797 1.53848 3.16156 1.53828H5.46925C5.84256 1.53461 6.20447 1.6668 6.48753 1.91023C6.77058 2.15366 6.95546 2.4917 7.00771 2.86136C7.10511 3.59987 7.28575 4.325 7.54617 5.0229C7.64967 5.29822 7.67206 5.59745 7.61071 5.88511C7.54936 6.17278 7.40683 6.43683 7.20002 6.64598L6.22309 7.6229C7.31814 9.5487 8.91267 11.1432 10.8385 12.2383L11.8154 11.2614C12.0245 11.0545 12.2886 10.912 12.5763 10.8507C12.8639 10.7893 13.1632 10.8117 13.4385 10.9152C14.1364 11.1756 14.8615 11.3563 15.6 11.4537C15.9737 11.5064 16.3149 11.6946 16.5589 11.9825C16.8028 12.2704 16.9325 12.638 16.9231 13.0152Z"
+              stroke="white"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <a class="footer-number" href="tel:+919896007719">+91 1234567890</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
